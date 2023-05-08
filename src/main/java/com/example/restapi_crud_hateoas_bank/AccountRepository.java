@@ -1,6 +1,6 @@
 package com.example.restapi_crud_hateoas_bank;
 
-import com.example.restapi_crud_hateoas_bank.Account.Account;
+import com.example.restapi_crud_hateoas_bank.Entity.Account;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

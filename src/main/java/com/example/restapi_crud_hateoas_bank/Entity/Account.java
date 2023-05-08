@@ -1,11 +1,14 @@
-package com.example.restapi_crud_hateoas_bank.Account;
+package com.example.restapi_crud_hateoas_bank.Entity;
+
+import org.springframework.hateoas.RepresentationModel;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "accounts")
+//public class Account extends RepresentationModel<Account> {
+//Có thể bỏ RepresentationModel nếu dùng RepresentationModelAssembler  ở AccountModelAssembler
 public class Account {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
